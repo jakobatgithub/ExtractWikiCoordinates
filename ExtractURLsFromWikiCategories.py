@@ -102,13 +102,7 @@ def create_kml_file(coordinates, names, urls, output_file):
 
 
 
-# Specify the category you want to extract URLs from
-# category = 'Großsteingrab_im_Landkreis_Ludwigslust-Parchim'
-# output_filename = 'GrosssteingrabKoordinaten_Ludwigslust-Parchim.kml'
-
-# Call the function to get the URLs
-# urls = get_category_urls(category)
-
+# Specify the categories you want to extract URLs from
 categories = [
     'Großsteingrab_im_Landkreis_Ludwigslust-Parchim', 
     'Großsteingrab im Landkreis Mecklenburgische Seenplatte', 
@@ -116,14 +110,14 @@ categories = [
     'Großsteingrab im Landkreis Rostock',
     'Großsteingrab im Landkreis Vorpommern-Greifswald',
     'Großsteingrab im Landkreis Vorpommern-Rügen']
+
+# Specify the name of the kml output file
 output_filename = 'Grosssteingrabkoordinaten_Mecklenburg-Vorpommern.kml'
 
 urls = []
 for category in categories:
     urls.extend(get_category_urls(category))
 
-
-# Print the URLs
 allcoordinates = []
 allurls = []
 allnames = []
