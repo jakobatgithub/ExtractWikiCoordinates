@@ -5,6 +5,7 @@ from urllib.parse import urlparse, unquote
 
 
 def get_human_readable_name(url):
+    # Extract the human-readable name from the URL
     parsed_url = urlparse(url)
     path = parsed_url.path
     article_name = path.split('/')[-1]
@@ -13,50 +14,8 @@ def get_human_readable_name(url):
     return human_readable_name
 
 
-def get_article_name(url):
-    parsed_url = urlparse(url)
-    path = parsed_url.path
-    article_name = path.split('/')[-1]
-    return article_name
-
-
-def get_category_urls(category):
-    base_url = 'https://de.wikipedia.org'
-    url = f'{base_url}/wiki/Kategorie:{category}'
-
-    response = requests.get(url)
-    soup = bs(response.text, 'html.parser')
-
-    urls = []
-
-    # Find all links within the category page
-    links = soup.find_all('a')
-    for link in links:
-        href = link.get('href')
-        if href and href.startswith('/wiki/'):
-            if 'Kategorie:' not in href:
-                if 'Spezial:' not in href:
-                    if 'Wikipedia:' not in href:
-                        if 'Hilfe:' not in href:
-                            if 'Portal:' not in href:
-                                urls.append(f'{base_url}{href}')
-
-    return urls
-
-
-def get_coordinates(url):
-    req = requests.get(url).text
-    soup = bs(req, 'lxml')
-    latitude = soup.find("span", {"class": "latitude"})
-    longitude = soup.find("span", {"class": "longitude"})
-    if latitude is not None:
-        if longitude is not None:
-            return (float(latitude.text), float(longitude.text))
-    else:
-        return None
-
-
 def create_kml_file(coordinates, names, urls, output_file):
+    # Create a KML file with coordinates, names, and URLs
     doc = minidom.Document()
 
     # Create KML root element
@@ -101,22 +60,54 @@ def create_kml_file(coordinates, names, urls, output_file):
     print(f"KML file '{output_file}' created successfully.")
 
 
+def get_category_urls(categories):
+    # Get URLs of Wikipedia pages in specified categories
+    base_url = 'https://de.wikipedia.org'
+    urls = []
+
+    for category in categories:
+        url = f'{base_url}/wiki/Kategorie:{category}'
+
+        response = requests.get(url)
+        soup = bs(response.text, 'html.parser')
+
+        # Find all links within the category page
+        links = soup.find_all('a')
+        for link in links:
+            href = link.get('href')
+            if href and href.startswith('/wiki/'):
+                if 'Kategorie:' not in href and 'Spezial:' not in href and 'Wikipedia:' not in href and 'Hilfe:' not in href and 'Portal:' not in href:
+                    urls.append(f'{base_url}{href}')
+
+    return urls
+
+
+def get_coordinates(url):
+    # Get the latitude and longitude coordinates from a Wikipedia page
+    req = requests.get(url).text
+    soup = bs(req, 'lxml')
+    latitude = soup.find("span", {"class": "latitude"})
+    longitude = soup.find("span", {"class": "longitude"})
+    if latitude is not None and longitude is not None:
+        return (float(latitude.text), float(longitude.text))
+    else:
+        return None
+
 
 # Specify the categories you want to extract URLs from
 categories = [
-    'Großsteingrab_im_Landkreis_Ludwigslust-Parchim', 
-    'Großsteingrab im Landkreis Mecklenburgische Seenplatte', 
+    'Großsteingrab_im_Landkreis_Ludwigslust-Parchim',
+    'Großsteingrab im Landkreis Mecklenburgische Seenplatte',
     'Großsteingrab im Landkreis Nordwestmecklenburg',
     'Großsteingrab im Landkreis Rostock',
     'Großsteingrab im Landkreis Vorpommern-Greifswald',
-    'Großsteingrab im Landkreis Vorpommern-Rügen']
+    'Großsteingrab im Landkreis Vorpommern-Rügen'
+]
 
-# Specify the name of the kml output file
+# Specify the name of the KML output file
 output_filename = 'Grosssteingrabkoordinaten_Mecklenburg-Vorpommern.kml'
 
-urls = []
-for category in categories:
-    urls.extend(get_category_urls(category))
+urls = get_category_urls(categories)
 
 allcoordinates = []
 allurls = []
