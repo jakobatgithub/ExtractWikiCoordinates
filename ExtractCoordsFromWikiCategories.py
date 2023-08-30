@@ -95,17 +95,20 @@ def get_coordinates(url):
 
 
 # Specify the categories you want to extract URLs from
-categories = [
-    'Großsteingrab_im_Landkreis_Ludwigslust-Parchim',
-    'Großsteingrab im Landkreis Mecklenburgische Seenplatte',
-    'Großsteingrab im Landkreis Nordwestmecklenburg',
-    'Großsteingrab im Landkreis Rostock',
-    'Großsteingrab im Landkreis Vorpommern-Greifswald',
-    'Großsteingrab im Landkreis Vorpommern-Rügen'
-]
+categories = ['Burgruine in Sachsen-Anhalt']
+# categories = [
+#    'Großsteingrab_im_Landkreis_Ludwigslust-Parchim',
+#    'Großsteingrab im Landkreis Mecklenburgische Seenplatte',
+#    'Großsteingrab im Landkreis Nordwestmecklenburg',
+#    'Großsteingrab im Landkreis Rostock',
+#    'Großsteingrab im Landkreis Vorpommern-Greifswald',
+#    'Großsteingrab im Landkreis Vorpommern-Rügen'
+# ]
+
 
 # Specify the name of the KML output file
-output_filename = 'Grosssteingrabkoordinaten_Mecklenburg-Vorpommern.kml'
+output_filename = 'Koordinaten_Burgruine_Sachsen-Anhalt.kml'
+# output_filename = 'Grosssteingrabkoordinaten_Mecklenburg-Vorpommern.kml'
 
 urls = get_category_urls(categories)
 

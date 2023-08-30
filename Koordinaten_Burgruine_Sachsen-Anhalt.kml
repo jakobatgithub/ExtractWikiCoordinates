@@ -1,0 +1,397 @@
+<?xml version="1.0" ?>
+<kml>
+  <Document>
+    <Placemark>
+      <name>Ahlsburg (Burg)</name>
+      <description>https://de.wikipedia.org/wiki/Ahlsburg_(Burg)</description>
+      <Point>
+        <coordinates>10.615833333333,51.869444444444</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Alt-Morungen</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Alt-Morungen</description>
+      <Point>
+        <coordinates>11.22246,51.51688</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Anhalt</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Anhalt</description>
+      <Point>
+        <coordinates>11.192694444444,51.669166666667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Apenburg</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Apenburg</description>
+      <Point>
+        <coordinates>11.204972222222,52.707138888889</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Arnstein</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Arnstein</description>
+      <Point>
+        <coordinates>11.410758333333,51.684422222222</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Aschersleben</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Aschersleben</description>
+      <Point>
+        <coordinates>11.43917,51.75136</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burgruine Birkenfeld</name>
+      <description>https://de.wikipedia.org/wiki/Burgruine_Birkenfeld</description>
+      <Point>
+        <coordinates>10.843175,51.753078</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bodfeld</name>
+      <description>https://de.wikipedia.org/wiki/Bodfeld</description>
+      <Point>
+        <coordinates>10.838611111111,51.788888888889</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Breitenbach</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Breitenbach</description>
+      <Point>
+        <coordinates>12.077083333333,51.003333333333</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Calvörde</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Calv%C3%B6rde</description>
+      <Point>
+        <coordinates>11.306666666667,52.396111111111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Domburg im Hakel</name>
+      <description>https://de.wikipedia.org/wiki/Domburg_im_Hakel</description>
+      <Point>
+        <coordinates>11.3168,51.8763</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Eckartsburg</name>
+      <description>https://de.wikipedia.org/wiki/Eckartsburg</description>
+      <Point>
+        <coordinates>11.559113888889,51.121505555556</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Elendsburg</name>
+      <description>https://de.wikipedia.org/wiki/Elendsburg</description>
+      <Point>
+        <coordinates>10.678778,51.751353</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Erichsberg</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Erichsberg</description>
+      <Point>
+        <coordinates>11.061722222222,51.671805555556</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Gatersleben</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Gatersleben</description>
+      <Point>
+        <coordinates>11.289777777778,51.826111111111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Giebichenstein</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Giebichenstein</description>
+      <Point>
+        <coordinates>11.953888888889,51.503333333333</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Grasburg (Rottleberode)</name>
+      <description>https://de.wikipedia.org/wiki/Grasburg_(Rottleberode)</description>
+      <Point>
+        <coordinates>10.934888888889,51.518333333333</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Grillenburg</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Grillenburg</description>
+      <Point>
+        <coordinates>11.314111111111,51.534583333333</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Güntersburg</name>
+      <description>https://de.wikipedia.org/wiki/G%C3%BCntersburg</description>
+      <Point>
+        <coordinates>10.97220227,51.63629049</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Hasserode</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Hasserode</description>
+      <Point>
+        <coordinates>10.745,51.820833</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Heimburg</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Heimburg</description>
+      <Point>
+        <coordinates>10.910777777778,51.827194444444</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Heinrichsberg</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Heinrichsberg</description>
+      <Point>
+        <coordinates>11.132222222222,51.675277777778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Heinrichsburg (Gernrode)</name>
+      <description>https://de.wikipedia.org/wiki/Heinrichsburg_(Gernrode)</description>
+      <Point>
+        <coordinates>11.1333508,51.675368</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Hundeluft</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Hundeluft</description>
+      <Point>
+        <coordinates>12.345083333333,51.965916666667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ilsestein</name>
+      <description>https://de.wikipedia.org/wiki/Ilsestein</description>
+      <Point>
+        <coordinates>10.661666666667,51.846666666667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Kalbe</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Kalbe</description>
+      <Point>
+        <coordinates>11.396361111111,52.654027777778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Klein Rosenburg</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Klein_Rosenburg</description>
+      <Point>
+        <coordinates>11.886321,51.92867</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Klutturm</name>
+      <description>https://de.wikipedia.org/wiki/Klutturm</description>
+      <Point>
+        <coordinates>11.766666666667,52.316666666667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ruine Königsburg</name>
+      <description>https://de.wikipedia.org/wiki/Ruine_K%C3%B6nigsburg</description>
+      <Point>
+        <coordinates>10.767183333333,51.74175</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kuckenburg (Wüstung)</name>
+      <description>https://de.wikipedia.org/wiki/Kuckenburg_(W%C3%BCstung)</description>
+      <Point>
+        <coordinates>11.548936,51.675092</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kuxburg</name>
+      <description>https://de.wikipedia.org/wiki/Kuxburg</description>
+      <Point>
+        <coordinates>11.010647,51.77648</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Lauenburg</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Lauenburg</description>
+      <Point>
+        <coordinates>11.081111111111,51.727055555556</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Lindau</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Lindau</description>
+      <Point>
+        <coordinates>12.098555555556,52.037694444444</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Loburg</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Loburg</description>
+      <Point>
+        <coordinates>12.068888888889,52.117222222222</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Moritzburg (Halle (Saale))</name>
+      <description>https://de.wikipedia.org/wiki/Moritzburg_(Halle_(Saale))</description>
+      <Point>
+        <coordinates>11.963333333333,51.486111111111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Nebra</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Nebra</description>
+      <Point>
+        <coordinates>11.575856208889,51.285381599444</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Neu-Morungen</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Neu-Morungen</description>
+      <Point>
+        <coordinates>11.230462789444,51.519031441667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Oebisfelde</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Oebisfelde</description>
+      <Point>
+        <coordinates>10.986666666667,52.426666666667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Oschersleben</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Oschersleben</description>
+      <Point>
+        <coordinates>11.22502,52.02424</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Questenberg</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Questenberg</description>
+      <Point>
+        <coordinates>11.119033098333,51.495174943056</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Regenstein</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Regenstein</description>
+      <Point>
+        <coordinates>10.959722222222,51.815277777778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Rogätz</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Rog%C3%A4tz</description>
+      <Point>
+        <coordinates>11.763683333333,52.311461111111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rudelsburg</name>
+      <description>https://de.wikipedia.org/wiki/Rudelsburg</description>
+      <Point>
+        <coordinates>11.706861,51.108904</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Saaleck</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Saaleck</description>
+      <Point>
+        <coordinates>11.701388888889,51.109722222222</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Salzwedel</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Salzwedel</description>
+      <Point>
+        <coordinates>11.151408333333,52.85155</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Altes Schloss Sangerhausen</name>
+      <description>https://de.wikipedia.org/wiki/Altes_Schloss_Sangerhausen</description>
+      <Point>
+        <coordinates>11.299911,51.474139</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Schanzenburg</name>
+      <description>https://de.wikipedia.org/wiki/Schanzenburg</description>
+      <Point>
+        <coordinates>10.85726,51.91549</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Schraplau</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Schraplau</description>
+      <Point>
+        <coordinates>11.66879,51.43797</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Stapelburg</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Stapelburg</description>
+      <Point>
+        <coordinates>10.669229,51.903689</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stecklenburg</name>
+      <description>https://de.wikipedia.org/wiki/Stecklenburg</description>
+      <Point>
+        <coordinates>11.087777777778,51.730833333333</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Struvenburg</name>
+      <description>https://de.wikipedia.org/wiki/Struvenburg</description>
+      <Point>
+        <coordinates>10.8735,51.833791666667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Susenburg</name>
+      <description>https://de.wikipedia.org/wiki/Susenburg</description>
+      <Point>
+        <coordinates>10.818782,51.742998</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Trageburg</name>
+      <description>https://de.wikipedia.org/wiki/Trageburg</description>
+      <Point>
+        <coordinates>10.790653,51.702802</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burgruine Weferlingen</name>
+      <description>https://de.wikipedia.org/wiki/Burgruine_Weferlingen</description>
+      <Point>
+        <coordinates>11.055555555556,52.312777777778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burg Weißandt-Gölzau</name>
+      <description>https://de.wikipedia.org/wiki/Burg_Wei%C3%9Fandt-G%C3%B6lzau</description>
+      <Point>
+        <coordinates>12.069425,51.668891666667</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burgruine Wolfsberg (Harz)</name>
+      <description>https://de.wikipedia.org/wiki/Burgruine_Wolfsberg_(Harz)</description>
+      <Point>
+        <coordinates>11.099583333333,51.551388888889</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
