@@ -1,0 +1,16 @@
+beautifulsoup4==4.12.2
+bs4==0.0.1
+certifi==2023.7.22
+cffi==1.15.1
+charset-normalizer==3.2.0
+idna==3.4
+lxml==4.9.3
+Pillow==10.0.0
+pycparser==2.21
+Pygments @ file:///private/tmp/pygments-20230630-5530-1s8evfm/Pygments-2.15.1
+PyYAML @ file:///private/tmp/pyyaml-20230717-6270-1iiwi1j/PyYAML-6.0.1
+requests==2.31.0
+six==1.16.0
+soupsieve==2.4.1
+typing_extensions @ file:///private/tmp/python-typing-extensions-20230702-5533-jv3t41/typing_extensions-4.7.1/dist/typing_extensions-4.7.1-py3-none-any.whl
+urllib3==2.0.4
