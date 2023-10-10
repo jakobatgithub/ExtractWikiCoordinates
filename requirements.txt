@@ -5,7 +5,7 @@ cffi==1.15.1
 charset-normalizer==3.2.0
 idna==3.4
 lxml==4.9.3
-Pillow==10.0.0
+Pillow==10.0.1
 pycparser==2.21
 Pygments @ file:///private/tmp/pygments-20230630-5530-1s8evfm/Pygments-2.15.1
 PyYAML @ file:///private/tmp/pyyaml-20230717-6270-1iiwi1j/PyYAML-6.0.1
