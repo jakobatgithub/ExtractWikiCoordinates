@@ -94,6 +94,7 @@ def get_coordinates(url):
         return None
 
 
+
 # Specify the categories you want to extract URLs from
 categories = ['Burgruine_in_Thüringen']
 # categories = ['Burgruine in Sachsen-Anhalt']
