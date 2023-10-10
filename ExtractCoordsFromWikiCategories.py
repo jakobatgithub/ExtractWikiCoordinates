@@ -95,7 +95,8 @@ def get_coordinates(url):
 
 
 # Specify the categories you want to extract URLs from
-categories = ['Burgruine in Sachsen-Anhalt']
+categories = ['Burgruine_in_Thüringen']
+# categories = ['Burgruine in Sachsen-Anhalt']
 # categories = [
 #    'Großsteingrab_im_Landkreis_Ludwigslust-Parchim',
 #    'Großsteingrab im Landkreis Mecklenburgische Seenplatte',
@@ -107,7 +108,8 @@ categories = ['Burgruine in Sachsen-Anhalt']
 
 
 # Specify the name of the KML output file
-output_filename = 'Koordinaten_Burgruine_Sachsen-Anhalt.kml'
+output_filename = 'Koordinaten_Burgruine_Thueringen.kml'
+# output_filename = 'Koordinaten_Burgruine_Sachsen-Anhalt.kml'
 # output_filename = 'Grosssteingrabkoordinaten_Mecklenburg-Vorpommern.kml'
 
 urls = get_category_urls(categories)
